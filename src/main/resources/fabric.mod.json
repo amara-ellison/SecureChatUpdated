@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "securechatupdated",
+  "version": "1.0.0",
+  "name": "Secure Chat Updated",
+  "description": "AES-256 w/ Base4096 chat encryption for Minecraft 26.1",
+  "authors": ["feshyfesh"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/securechatupdated/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.securechatupdated.SecureChatUpdatedClient"
+    ]
+  },
+  "mixins": [
+    "securechatupdated.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "~26.1"
+  }
+}

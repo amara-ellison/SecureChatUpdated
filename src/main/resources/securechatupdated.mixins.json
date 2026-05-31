@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.securechatupdated.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "SendChatMixin",
+    "ChatScreenMixin",
+    "ChatScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
