@@ -2,7 +2,7 @@ An updated version of [SecureChat](https://modrinth.com/mod/securechat) for late
 
 ## SecureChatUpdated MQTT Mode
 
-The mod now uses the Python prototype protocol:
+The mod now uses the following protocols:
 
 - MQTT relay topics: `securechatupdated/<network_id>/presence` and `securechatupdated/<network_id>/messages`
 - XChaCha20-Poly1305 message encryption
