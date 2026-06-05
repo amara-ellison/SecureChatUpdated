@@ -5,7 +5,8 @@
   "client": [
     "SendChatMixin",
     "ChatScreenMixin",
-    "ChatScreenAccessor"
+    "ChatScreenAccessor",
+    "PlayerTabOverlayMixin"
   ],
   "injectors": {
     "defaultRequire": 1
